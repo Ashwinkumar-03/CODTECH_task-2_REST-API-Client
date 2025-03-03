@@ -20,8 +20,8 @@ The primary objective of this project is to retrieve and parse data from externa
 - The response is read using an input stream, and the JSON data is stored as a string.
 
 **Execution Output (API Call Success)**  
-✅ API request sent successfully!  
-✅ Response received from API!  
+API request sent successfully!  
+Response received from API!  
 
 ### **Step 2: Parsing JSON Response**
 - The response data is processed using the `org.json` library.
@@ -55,11 +55,11 @@ java -cp .;json-20210307.jar RestApiClient
 ---
 
 ## **Key Features Implemented**
- **REST API Integration** → Fetches real-time data from public REST APIs using HTTP requests.  
- **JSON Parsing** → Extracts and processes relevant information from JSON responses.  
- **Efficient Data Handling** → Uses Java Collections and Streams API for structured data processing.  
- **Error Handling & Robustness** → Implements exception handling to manage API failures and invalid responses.  
- **Scalability** → Designed to handle multiple API requests efficiently for future extensions.  
+**REST API Integration** → Fetches real-time data from public REST APIs using HTTP requests.  
+**JSON Parsing** → Extracts and processes relevant information from JSON responses.  
+**Efficient Data Handling** → Uses Java Collections and Streams API for structured data processing.  
+**Error Handling & Robustness** → Implements exception handling to manage API failures and invalid responses.  
+**Scalability** → Designed to handle multiple API requests efficiently for future extensions.  
 
 ---
 
@@ -83,11 +83,11 @@ java -cp .;json-20210307.jar RestApiClient
 ---
 
 ## **Enhancements for Future Development**
-🚀 **Support for Multiple API Endpoints** – Extend functionality to handle different APIs dynamically.  
-🚀 **Graphical User Interface (GUI)** – Develop a user-friendly GUI for better interaction and visualization.  
-🚀 **Database Integration** – Store API responses in a database for historical analysis and offline access.  
-🚀 **Caching Mechanism** – Implement caching to reduce redundant API calls and improve response time.  
-🚀 **Advanced Error Handling** – Enhance logging and debugging capabilities for better fault tolerance.  
+**Support for Multiple API Endpoints** – Extend functionality to handle different APIs dynamically.  
+**Graphical User Interface (GUI)** – Develop a user-friendly GUI for better interaction and visualization.  
+**Database Integration** – Store API responses in a database for historical analysis and offline access.  
+**Caching Mechanism** – Implement caching to reduce redundant API calls and improve response time.  
+**Advanced Error Handling** – Enhance logging and debugging capabilities for better fault tolerance.  
 
 ---
 
