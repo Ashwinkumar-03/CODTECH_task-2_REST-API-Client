@@ -50,7 +50,7 @@ java -cp .;json-20210307.jar RestApiClient
 ```
 
 **Execution Output**  
-![task_2_output](https://github.com/user-attachments/assets/da95227c-8962-45a8-9c71-132185663b3d)
+![image](https://github.com/user-attachments/assets/f1cec26d-2626-46cd-a87e-1658199a4976)
 
 ---
 
