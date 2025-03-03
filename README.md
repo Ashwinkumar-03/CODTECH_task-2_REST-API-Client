@@ -5,6 +5,8 @@ The REST API Client is a Java-based application designed to consume public REST 
 
 The primary objective of this project is to retrieve and parse data from external web services, such as **weather updates**, **user details**, or other publicly available datasets. The application was built and executed using **Notepad++**, ensuring a lightweight yet efficient workflow with proper error handling and structured output formatting.
 
+---
+
 ## **Technology Stack**
 - **Programming Language:** Java  
 - **HTTP Handling:** `HttpURLConnection`, `OkHttp` (alternative)  
@@ -12,6 +14,8 @@ The primary objective of this project is to retrieve and parse data from externa
 - **Development Environment:** Notepad++  
 - **Data Processing:** Java Collections, Streams API  
 - **API Used:** Public REST APIs (e.g., OpenWeatherMap, JSONPlaceholder)  
+
+---
 
 ## **Project Workflow**
 ### **Step 1: Setting Up the API Client**
@@ -55,11 +59,11 @@ java -cp .;json-20210307.jar RestApiClient
 ---
 
 ## **Key Features Implemented**
-**REST API Integration** → Fetches real-time data from public REST APIs using HTTP requests.  
-**JSON Parsing** → Extracts and processes relevant information from JSON responses.  
-**Efficient Data Handling** → Uses Java Collections and Streams API for structured data processing.  
-**Error Handling & Robustness** → Implements exception handling to manage API failures and invalid responses.  
-**Scalability** → Designed to handle multiple API requests efficiently for future extensions.  
+-**REST API Integration** → Fetches real-time data from public REST APIs using HTTP requests.  
+-**JSON Parsing** → Extracts and processes relevant information from JSON responses.  
+-**Efficient Data Handling** → Uses Java Collections and Streams API for structured data processing.  
+-**Error Handling & Robustness** → Implements exception handling to manage API failures and invalid responses.  
+-**Scalability** → Designed to handle multiple API requests efficiently for future extensions.  
 
 ---
 
@@ -83,11 +87,11 @@ java -cp .;json-20210307.jar RestApiClient
 ---
 
 ## **Enhancements for Future Development**
-**Support for Multiple API Endpoints** – Extend functionality to handle different APIs dynamically.  
-**Graphical User Interface (GUI)** – Develop a user-friendly GUI for better interaction and visualization.  
-**Database Integration** – Store API responses in a database for historical analysis and offline access.  
-**Caching Mechanism** – Implement caching to reduce redundant API calls and improve response time.  
-**Advanced Error Handling** – Enhance logging and debugging capabilities for better fault tolerance.  
+-**Support for Multiple API Endpoints** – Extend functionality to handle different APIs dynamically.  
+-**Graphical User Interface (GUI)** – Develop a user-friendly GUI for better interaction and visualization.  
+-**Database Integration** – Store API responses in a database for historical analysis and offline access.  
+-**Caching Mechanism** – Implement caching to reduce redundant API calls and improve response time.  
+-**Advanced Error Handling** – Enhance logging and debugging capabilities for better fault tolerance.  
 
 ---
 
