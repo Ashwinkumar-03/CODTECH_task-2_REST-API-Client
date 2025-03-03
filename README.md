@@ -37,6 +37,7 @@ Response received from API!
 - Proper formatting ensures that users can easily interpret the output.
 - If an error occurs, an exception handling mechanism prints an error message.
 
+---
 
 ### **How to Run the Project**
 
